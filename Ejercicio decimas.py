@@ -47,7 +47,7 @@ def registrar_reserva(reservas):
     
 
 
-    
+#===MAIN===
     
 def main():
 
@@ -82,4 +82,18 @@ def main():
             break
         
 main()
+
+
+
+#===ELEGIR OPCIONES===
+
+def leer_opcion():
+    try:
+        
+        opcion=int(input('*Selecciona una opción:'))
+        if opcion <=7 and opcion>=1:
+            print('Opción válida*')
+            
+
+
 
